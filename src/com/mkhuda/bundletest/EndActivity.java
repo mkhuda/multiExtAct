@@ -51,18 +51,19 @@ public class EndActivity extends ActionBarActivity {
 		nomor2float = Float.valueOf(nomor2.toString());
 		nomor3float = Float.valueOf(nomor3.toString());
 		
-//		Menambahkan masing-masing hasil
-		
-		
-//		Menampilkan kedalam TextView
 		btn = (Button) findViewById(R.id.button4);
 		btn.setOnClickListener(new OnClickListener(){
 
+//			Button Process OnClick
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
+				
+//				Menambahkan masing-masing hasil
 				hasil = nomor1float+nomor2float+nomor3float;
 				tampilhasil = hasil.toString();
+				
+//				Menampilkan kedalam TextView
 				hasiltambah.setText(tampilhasil);
 				hasiltambah.setVisibility(View.VISIBLE);
 			}
