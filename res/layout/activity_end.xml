@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mkhuda.bundletest.EndActivity" >
+    
+     <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil 1 = " />
+     
+     <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView31"
+        android:text="Hasil 2 = " />
+     
+      <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView32"
+        android:text="Hasil 3 = " />
+      
+      <TextView
+        android:id="@+id/textViewTambah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView33"
+        android:text="Jika Ditambahkan maka hasilnya = " />
+
+      <TextView
+          android:id="@+id/textViewHasil1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_above="@+id/textView32"
+          android:layout_toRightOf="@+id/textView31"
+          android:text="Hasil" />
+
+      <TextView
+          android:id="@+id/textViewHasil2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_above="@+id/textView33"
+          android:layout_toRightOf="@+id/textView32"
+          android:text="Hasil" />
+
+      <TextView
+          android:id="@+id/textViewHasil3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/textView33"
+          android:layout_alignBottom="@+id/textView33"
+          android:layout_toRightOf="@+id/textView33"
+          android:text="Hasil" />
+      
+       <TextView
+          android:id="@+id/textViewHasilTambah"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBaseline="@+id/textViewTambah"
+          android:layout_alignBottom="@+id/textViewTambah"
+          android:layout_toRightOf="@+id/textViewTambah"
+          android:text="Hasil" />
+
+</RelativeLayout>
