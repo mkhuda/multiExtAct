@@ -30,6 +30,13 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView33"
         android:text="Jika Ditambahkan maka hasilnya = " />
+      
+       <Button
+        android:id="@+id/button4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTambah"
+        android:text="Process" />
 
       <TextView
           android:id="@+id/textViewHasil1"
